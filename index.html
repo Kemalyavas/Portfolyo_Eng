@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Kemal Yavaş - Full Stack Developer</title>
+    <meta name="description" content="Ali Kemal Yavaş - Software Engineering student and Full Stack Developer. I develop modern web applications and systems.">
+    <meta name="keywords" content="Ali Kemal Yavaş, Full Stack Developer, Software Engineering, Web Development, Django, React">
+    
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</head>
+<body>
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="code-animation">
+                <span class="code-line">const developer = {</span>
+                <span class="code-line">  name: 'Ali Kemal Yavaş',</span>
+                <span class="code-line">  role: 'Full Stack Developer',</span>
+                <span class="code-line">  passion: 'Creating Digital Experiences'</span>
+                <span class="code-line">};</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="global-background">
+        <div class="hero-grid"></div>
+        <div class="hero-particles"></div>
+        </div>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">AKY</span>
+                    <span class="logo-dot">.</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">
+                        <span class="nav-text">About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">
+                        <span class="nav-text">Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">
+                        <span class="nav-text">Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-section="experience">
+                        <span class="nav-text">Experience</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">
+                        <span class="nav-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-extras">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up" data-aos-delay="200">
+                    <div class="hero-greeting">
+                        <span class="greeting-icon">👋</span>
+                        <span class="greeting-text">Hello, I'm</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="title-name">Ali Kemal Yavaş</span>
+                        <span class="title-role" id="typing-text"></span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        I'm a Software Engineering student specializing in <strong>Full Stack Development</strong>. 
+                        I develop <em>scalable web applications</em> and <em>user-friendly interfaces</em> using modern technologies.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span class="btn-text">View My Projects</span>
+                            <i class="btn-icon fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span class="btn-text">Get in Touch</span>
+                            <i class="btn-icon fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <span class="social-label">Follow Me</span>
+                        <div class="social-links">
+                            <a href="https://github.com/kemalyavas" target="_blank" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/alikemalyavas1/" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://bionluk.com/kemalyavas" target="_blank" class="social-link" aria-label="Bionluk">
+                                <i class="fas fa-briefcase"></i>
+                            </a>
+                            <a href="mailto:kemalyavaas@outlook.com" class="social-link" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control close"></span>
+                                <span class="control minimize"></span>
+                                <span class="control maximize"></span>
+                            </div>
+                            <div class="window-title">ali-kemal-yavas.js</div>
+                        </div>
+                        <div class="window-content">
+                            <div class="code-lines" id="code-animation">
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="floating-element" data-tech="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-element" data-tech="Django">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="floating-element" data-tech="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="floating-element" data-tech="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="floating-element" data-tech="Database">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="floating-element" data-tech="Cloud">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll</div>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get to Know Me</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    The story and vision of a passionate developer
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-intro">
+                        <p>
+                            Hello! I'm <strong>Ali Kemal Yavaş</strong>, a 3rd-year Software Engineering 
+                            student at Kocaeli University. Since I stepped into the world of web development, 
+                            I believe that <em>writing code is an art</em>.
+                        </p>
+                    </div>
+                    
+                    <div class="about-details">
+                        <p>
+                            Every project is a new adventure for me. From <strong>Frontend</strong> to <strong>Backend</strong>, 
+                            from <strong>UI/UX design</strong> to <strong>database optimization</strong>, I focus on 
+                            improving myself in every area of technology.
+                        </p>
+                        
+                        <p>
+                            I particularly enjoy working with <strong>Django</strong> and <strong>React</strong> technologies. 
+                            I effectively use AI tools to improve code quality and optimize development processes.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div class="highlight-content">
+                                <h4>Clean Code</h4>
+                                <p>Principles of writing clean, readable, and maintainable code</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div class="highlight-content">
+                                <h4>Performance</h4>
+                                <p>High-performance and optimized web applications</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <div class="highlight-content">
+                                <h4>User Experience</h4>
+                                <p>User-centric design and development approach</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="assets/cv.pdf" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <div class="image-decoration"></div>
+                    </div>
+                    
+                    <div class="about-cards">
+                        <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Age</span>
+                                <span class="card-value">21</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Location</span>
+                                <span class="card-value">Kocaeli, TR</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Education</span>
+                                <span class="card-value">Software Eng.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="card-icon">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Coffee</span>
+                                <span class="card-value">∞ Cups</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Areas of Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">
+                    Areas where I specialize in modern web development technologies
+                </p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="category-title">Frontend Development</h3>
+                        <p class="category-description">User interface and experience-focused development</p>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3 / SASS</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="category-title">Backend Development</h3>
+                        <p class="category-description">Server-side development and API design</p>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Django</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PostgreSQL</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">REST API</span>
+                                <span class="skill-level">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="category-title">Tools & Technologies</h3>
+                        <p class="category-description">Development tools and technologies</p>
+                    </div>
+                    
+                    <div class="tech-icons">
+                        <div class="tech-item" data-tooltip="Git & GitHub">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="Docker">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="VS Code">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="Figma">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="Linux">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <div class="tech-item" data-tooltip="AWS">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    Modern web applications and systems I have developed
+                </p>
+            </div>
+            
+            <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Kemalyavas/Lost-Found" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Full Stack</div>
+                        <h3 class="project-title">Lost and Found System</h3>
+                        <p class="project-description">
+                            Comprehensive lost and found management system developed with Django. 
+                            Features include CRUD operations, user authorization, messaging system, and CSV import/export.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>Fast Loading</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-users"></i>
+                                <span>3 User Types</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-comments"></i>
+                                <span>Messaging System</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-file-csv"></i>
+                                <span>CSV Import/Export</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="frontend" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/kemalyavas/law" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://kemalyavas.github.io/law/" target="_blank" class="project-link" aria-label="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">Law Office Website</h3>
+                        <p class="project-description">
+                            Responsive website designed for a modern and professional law office. 
+                            Developed with an elegant design and smooth animations for user experience.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>Clean Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-tie"></i>
+                                <span>Professional Layout</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="frontend" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/kemalyavas/landing_page" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://kemalyavas.github.io/landing_page/" target="_blank" class="project-link" aria-label="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">Modern Landing Page</h3>
+                        <p class="project-description">
+                            Impressive landing page created using modern design trends and interactive elements. 
+                            Conversion-focused design principles applied.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-magic"></i>
+                                <span>Smooth Animations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-star"></i>
+                                <span>High Conversion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-status">Under Development</div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Full Stack</div>
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">
+                            Modern e-commerce platform developed using Django REST Framework and React.js. 
+                            Complete solution with payment system, inventory management, and admin panel.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">Django REST</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-credit-card"></i>
+                                <span>Payment Integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-boxes"></i>
+                                <span>Inventory Management</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Analytics Dashboard</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="frontend" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/kemalyavas/Portfolyo" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://kemalyavas.github.io/Portfolyo/" target="_blank" class="project-link" aria-label="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            Personal portfolio website created using modern web technologies. 
+                            Professional appearance with interactive animations and responsive design.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AOS</span>
+                        </div>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Clean Code</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Modern Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>Performance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-status">Planned</div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Web App</div>
+                        <h3 class="project-title">AI Code Assistant</h3>
+                        <p class="project-description">
+                            AI-powered code assistant web application. 
+                            Intelligent platform offering code review, bug detection, and optimization suggestions.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-brain"></i>
+                                <span>AI Powered</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-bug"></i>
+                                <span>Bug Detection</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-optimize"></i>
+                                <span>Code Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta" data-aos="fade-up" data-aos-delay="700">
+                <div class="cta-content">
+                    <h3>Want to view more projects?</h3>
+                    <p>You can find many more open-source projects on my GitHub profile.</p>
+                    <a href="https://github.com/kemalyavas" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i>
+                        <span>View on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">
+                    My professional development story and academic background
+                </p>
+            </div>
+            
+            <div class="experience-content">
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                        <div class="timeline-marker">
+                            <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Freelance Web Developer</h3>
+                                <span class="timeline-company">Bionluk Platform</span>
+                                <span class="timeline-date">2024 - Present</span>
+                            </div>
+                            <div class="timeline-description">
+                                <p>
+                                    I am developing myself in web site development for clients by learning modern web technologies. 
+                                    I design responsive and user-friendly web solutions using HTML, CSS, JavaScript, and modern frameworks.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li>Learning modern web technologies</li>
+                                    <li>Developing responsive designs</li>
+                                    <li>Designing user-friendly interfaces</li>
+                                    <li>Clean code writing principles</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="timeline-marker">
+                            <div class="timeline-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Software Engineering</h3>
+                                <span class="timeline-company">Kocaeli University</span>
+                                <span class="timeline-date">2022 - 2027</span>
+                            </div>
+                            <div class="timeline-description">
+                                <p>
+                                    I am learning software development principles, data structures, algorithm analysis, 
+                                    web programming, and modern software engineering practices.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    
+                                    <li>Specializing in web programming</li>
+                                    <li>Leadership experience in team projects</li>
+                                    <li>Contribution to open-source projects</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Data Structures</span>
+                                <span class="skill-tag">Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                        <div class="timeline-marker">
+                            <div class="timeline-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Self-Taught Developer</h3>
+                                <span class="timeline-company">Personal Development</span>
+                                <span class="timeline-date">2023 - Present</span>
+                            </div>
+                            <div class="timeline-description">
+                                <p>
+                                    I am developing practical projects by learning modern web technologies. 
+                                    I continuously improve myself with online courses, documentation, and open-source projects.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li>Django framework expertise</li>
+                                    <li>Frontend development with React.js</li>
+                                    <li>RESTful API design and development</li>
+                                    <li>Usage of modern DevOps tools</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Django</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">REST API</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                        <div class="timeline-marker">
+                            <div class="timeline-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Personal Project Development</h3>
+                                <span class="timeline-company">GitHub Portfolio</span>
+                                <span class="timeline-date">2023 - Present</span>
+                            </div>
+                            <div class="timeline-description">
+                                <p>
+                                    I reinforce the technologies I learn by developing practical projects. 
+                                    With each project, I find opportunities to experience different technologies and improve my problem-solving skills.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li>Lost and found tracking system (Django)</li>
+                                    <li>Modern landing page designs</li>
+                                    <li>Law office website</li>
+                                    <li>Personal portfolio development</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">GitHub</span>
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Project Management</span>
+                                <span class="skill-tag">Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">
+                    Got a new project? Let's build amazing things together!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-intro">
+                        <h3>Let's talk!</h3>
+                        <p>
+                            Don't hesitate to contact me for new projects, collaborations, 
+                            or just to say hello. I'm always looking for new opportunities and challenges.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Email</h4>
+                                <p>kemalyavaas@outlook.com</p>
+                                <a href="mailto:kemalyavaas@outlook.com" class="method-link">
+                                    Send Email <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Phone</h4>
+                                <p>+90 554 969 00 11</p>
+                                <a href="tel:+905549690011" class="method-link">
+                                    Call <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Location</h4>
+                                <p>Kocaeli, Turkey</p>
+                                <span class="method-link">
+                                    GMT+3 Time Zone
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Social Media</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/kemalyavas" target="_blank" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/alikemalyavas1/" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://bionluk.com/kemalyavas" target="_blank" class="social-link" aria-label="Bionluk">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Bionluk</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-left" data-aos-delay="200">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-header">
+                            <h3>Send a Message</h3>
+                            <p>You can contact me by filling out the form below.</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-error" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Share details about your project..."></textarea>
+                            <span class="form-error" id="message-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                <span class="checkbox-text">
+                                    I accept the processing of my personal data and being contacted by you.
+                                </span>
+                            </label>
+                            <span class="form-error" id="privacy-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Sending...
+                            </span>
+                            <i class="btn-icon fas fa-paper-plane"></i>
+                        </button>
+                        
+                        <div class="form-success" id="form-success">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Your message has been sent successfully! I will get back to you as soon as possible.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="logo-text">AKY</span>
+                            <span class="logo-dot">.</span>
+                        </div>
+                        <p class="footer-description">
+                            Software Engineering student and Full Stack Developer. 
+                            I develop amazing projects with modern web technologies.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://github.com/kemalyavas" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/alikemalyavas1/" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://bionluk.com/kemalyavas" target="_blank" aria-label="Bionluk">
+                                <i class="fas fa-briefcase"></i>
+                            </a>
+                            <a href="mailto:kemalyavaas@outlook.com" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#contact">Web Development</a></li>
+                                <li><a href="#contact">Frontend Development</a></li>
+                                <li><a href="#contact">Backend Development</a></li>
+                                <li><a href="#contact">Full Stack Solutions</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><i class="fas fa-envelope"></i> kemalyavaas@outlook.com</li>
+                                <li><i class="fas fa-phone"></i> +90 554 969 00 11</li>
+                                <li><i class="fas fa-map-marker-alt"></i> Kocaeli, Turkey</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Ali Kemal Yavaş. All rights reserved.</p>
+                    </div>
+                    <div class="footer-credits">
+                        <p>Coded with ❤️ | <span id="current-year"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
